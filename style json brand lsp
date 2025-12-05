@@ -1,0 +1,108 @@
+{
+  "brand_identity": {
+    "name": "Lorenzo Self Publish",
+    "tone": "Professional, Energetic, Authoritative",
+    "visual_motif": "Concentric waves, Floating geometric particles"
+  },
+  "colors": {
+    "primary": {
+      "purple_deep": "#4A148C",
+      "purple_vivid": "#6A1B9A",
+      "gradient_start": "#5E17EB",
+      "gradient_end": "#450F85"
+    },
+    "secondary": {
+      "orange_cta": "#FF914D",
+      "orange_banner": "#F58634",
+      "yellow_highlight": "#FFD700"
+    },
+    "neutral": {
+      "white": "#FFFFFF",
+      "off_white": "#F9F9F9",
+      "text_dark": "#333333"
+    },
+    "social": {
+      "whatsapp_green": "#25D366"
+    }
+  },
+  "typography": {
+    "font_family": {
+      "primary": "Montserrat, sans-serif"
+    },
+    "weights": {
+      "regular": 400,
+      "semi_bold": 600,
+      "bold": 700
+    },
+    "sizes": {
+      "nav_link": "14px",
+      "body": "16px",
+      "h3_sub": "24px",
+      "h2_section": "36px",
+      "h1_hero": "48px"
+    },
+    "line_heights": {
+      "body": "1.6",
+      "heading": "1.2"
+    },
+    "casing": {
+      "buttons": "uppercase",
+      "nav": "uppercase",
+      "headings": "sentence-case"
+    }
+  },
+  "spacing": {
+    "section_padding_y": "80px",
+    "element_gap": "24px",
+    "nav_item_gap": "20px",
+    "container_max_width": "1200px"
+  },
+  "borders": {
+    "radius": {
+      "sm": "4px",
+      "md": "8px",
+      "pill": "50px",
+      "circle": "50%"
+    },
+    "width": {
+      "none": "0px",
+      "thin": "1px"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": {
+        "background": "{colors.secondary.orange_cta}",
+        "text_color": "{colors.neutral.text_dark}",
+        "border_radius": "{borders.radius.sm}",
+        "padding": "16px 32px",
+        "font_weight": "{typography.weights.bold}",
+        "text_transform": "uppercase",
+        "box_shadow": "0px 4px 6px rgba(0, 0, 0, 0.1)"
+      },
+      "secondary_pill": {
+        "background": "{colors.primary.purple_deep}",
+        "text_color": "{colors.neutral.white}",
+        "border_radius": "{borders.radius.pill}",
+        "padding": "12px 28px",
+        "font_weight": "{typography.weights.semi_bold}",
+        "text_transform": "uppercase"
+      }
+    },
+    "tags": {
+      "hero_label": {
+        "background": "{colors.neutral.white}",
+        "text_color": "{colors.neutral.text_dark}",
+        "padding": "8px 16px",
+        "font_weight": "{typography.weights.bold}",
+        "border_radius": "{borders.radius.none}",
+        "letter_spacing": "1px"
+      }
+    },
+    "navigation": {
+      "link_color": "{colors.neutral.white}",
+      "separator": "|",
+      "separator_opacity": "0.5"
+    }
+  }
+}
